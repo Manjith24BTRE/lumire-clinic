@@ -924,9 +924,9 @@ function BookingCTA() {
               <GoldButton href="#contact" variant="ghost">Contact Clinic</GoldButton>
             </div>
             <div className="mt-10 space-y-3 text-sm text-muted-foreground">
-              <div className="flex items-center gap-3"><Phone className="w-4 h-4 text-primary" /> +1 (555) 128-9370</div>
-              <div className="flex items-center gap-3"><Mail className="w-4 h-4 text-primary" /> hello@lumiere-clinic.com</div>
-              <div className="flex items-center gap-3"><MapPin className="w-4 h-4 text-primary" /> 24 Rue Saint-Honoré, Suite 300</div>
+              <div className="flex items-center gap-3"><Phone className="w-4 h-4 text-primary" /> +91 6361492452</div>
+              <div className="flex items-center gap-3"><Mail className="w-4 h-4 text-primary" /> official@mavrostech.in</div>
+              <div className="flex items-center gap-3"><MapPin className="w-4 h-4 text-primary" /> Bangalore, Karnataka</div>
             </div>
           </div>
 
@@ -1036,14 +1036,14 @@ function Footer() {
           <div>
             <div className="text-xs tracking-[0.2em] uppercase text-primary">Location</div>
             <ul className="mt-5 space-y-3 text-sm text-muted-foreground">
-              <li className="flex gap-2"><MapPin className="w-4 h-4 shrink-0 text-primary mt-0.5" /> 24 Rue Saint-Honoré, Suite 300</li>
-              <li className="flex gap-2"><Phone className="w-4 h-4 shrink-0 text-primary mt-0.5" /> +1 (555) 128-9370</li>
-              <li className="flex gap-2"><Mail className="w-4 h-4 shrink-0 text-primary mt-0.5" /> hello@lumiere-clinic.com</li>
+              <li className="flex gap-2"><MapPin className="w-4 h-4 shrink-0 text-primary mt-0.5" /> Bangalore, Karnataka</li>
+              <li className="flex gap-2"><Phone className="w-4 h-4 shrink-0 text-primary mt-0.5" /> +91 6361492452</li>
+              <li className="flex gap-2"><Mail className="w-4 h-4 shrink-0 text-primary mt-0.5" /> official@mavrostech.in</li>
             </ul>
             <div className="mt-5 rounded-2xl overflow-hidden border border-border h-28">
               <iframe
                 title="Clinic location"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=2.325%2C48.865%2C2.34%2C48.872&layer=mapnik"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=77.58%2C12.96%2C77.61%2C12.98&layer=mapnik&marker=12.97%2C77.595"
                 className="w-full h-full"
                 loading="lazy"
               />
@@ -1102,7 +1102,7 @@ function FloatingButtons() {
       </AnimatePresence>
 
       <a
-        href="https://wa.me/15551289370"
+        href="https://wa.me/916361492452"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp"
