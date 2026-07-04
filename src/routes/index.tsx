@@ -1040,14 +1040,6 @@ function Footer() {
               <li className="flex gap-2"><Phone className="w-4 h-4 shrink-0 text-primary mt-0.5" /> +91 6361492452</li>
               <li className="flex gap-2"><Mail className="w-4 h-4 shrink-0 text-primary mt-0.5" /> official@mavrostech.in</li>
             </ul>
-            <div className="mt-5 rounded-2xl overflow-hidden border border-border h-28">
-              <iframe
-                title="Clinic location"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=77.58%2C12.96%2C77.61%2C12.98&layer=mapnik&marker=12.97%2C77.595"
-                className="w-full h-full"
-                loading="lazy"
-              />
-            </div>
           </div>
 
           <div>
