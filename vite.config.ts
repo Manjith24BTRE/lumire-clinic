@@ -12,6 +12,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
     tsconfigPaths(),
+  ],
   ssr: {
     noExternal: ['lucide-react']
   },
