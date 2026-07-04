@@ -1055,11 +1055,13 @@ function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 pt-8 border-t border-border/60 flex flex-col sm:flex-row justify-between gap-3 text-xs text-muted-foreground">
+        <div className="mt-16 pt-8 border-t border-border/60 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-muted-foreground">
           <div>© {new Date().getFullYear()} Lumière Aesthetics Clinic. All rights reserved.</div>
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-primary">Privacy</a>
-            <a href="#" className="hover:text-primary">Terms</a>
+          <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
+            <a href="#" className="hover:text-primary transition-colors">Privacy</a>
+            <a href="#" className="hover:text-primary transition-colors">Terms</a>
+            <span className="hidden sm:inline border-l border-border/60 h-3"></span>
+            <span>Associated and designed by mavrostech</span>
           </div>
         </div>
       </div>
