@@ -4,8 +4,8 @@ import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion"
 import {
   Sparkles, Zap, Droplets, Sun, Star, ShieldCheck, Award, Users, Cpu,
   ChevronDown, ChevronLeft, ChevronRight, Calendar, MapPin, Phone, Mail,
-  Instagram, Facebook, Clock, ArrowRight, Check, Heart, Flower2, Wand2,
-  Syringe, Scissors, Snowflake, Waves, MessageCircle, X, Menu,
+  Clock, ArrowRight, Check, Heart, Flower2, Wand2,
+  Syringe, Scissors, Snowflake, Waves, MessageCircle, X, Menu, Camera,
 } from "lucide-react";
 
 import heroImg from "@/assets/hero.jpg";
@@ -25,7 +25,7 @@ export const Route = createFileRoute("/")({
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] } },
+  show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] } },
 };
 
 function SectionHeader({
