@@ -12,8 +12,11 @@ export default defineConfig({
     react(),
     tailwindcss(),
     tsconfigPaths(),
-  ],
   ssr: {
     noExternal: ['lucide-react']
+  },
+  preview: {
+    port: process.env.PORT ? parseInt(process.env.PORT) : 4173,
+    allowedHosts: true
   }
 });
