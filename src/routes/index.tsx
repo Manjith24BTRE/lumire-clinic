@@ -1016,8 +1016,8 @@ function Footer() {
               Advanced dermatology and aesthetic medicine in a serene, luxurious environment.
             </p>
             <div className="mt-6 flex gap-3">
-              {[Instagram, Facebook, MessageCircle].map((Icon, i) => (
-                <a key={i} href="#" aria-label="Social" className="w-9 h-9 rounded-full grid place-items-center glass hover:text-primary transition">
+              {[Camera, Heart, MessageCircle].map((Icon, i) => (
+                <a key={i} href="#" aria-label="Social media" className="w-9 h-9 rounded-full grid place-items-center glass hover:text-primary transition">
                   <Icon className="w-4 h-4" />
                 </a>
               ))}
